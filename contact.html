@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoTime</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/cinema.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_contact.css"> <!-- Ваши дополнительные стили -->
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="index.html" style="color: grey;">KinoTime</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html" style="color: grey;">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="review.html" style="color: grey;">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="releases.html" style="color: grey;">Upcoming Releases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: grey;">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <div class="container-fluid" style="height: 100vh; ">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <form class="bg-white rounded shadow p-4" style="width: 690px;">
+                <h1 class="text-secondary text-center">Contact us</h1>
+                <input type="text" class="form-control mb-3" id="FirstName" placeholder="FirstName" required>
+                <input type="text" class="form-control mb-3" id="LastName" placeholder="LastName" required>
+                <input type="email" class="form-control mb-3" id="email" placeholder="Email" required>
+                <input type="text" class="form-control mb-3" id="phone" placeholder="Phone" required>
+                <h4 class="text-secondary">Type your message</h4>
+                <textarea class="form-control mb-3" required style="resize: none; height: 80px;" placeholder="Your message..."></textarea>
+                <button type="submit" class="btn btn-secondary">Send</button>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-light text-center py-3">
+        <div class="footer-content">
+            <p>© 2024 KinoTime. Created by:</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">Yerkezhan Akhmetova</li>
+                <li class="list-inline-item">Akmagambetova Aliya</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
